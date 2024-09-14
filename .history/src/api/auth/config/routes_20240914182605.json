@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/api/check-auth",
+      "handler": "auth.checkAuth",
+      "config": {
+        "policies": []
+      }
+    },
+  ]
+}
